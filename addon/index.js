@@ -1,6 +1,8 @@
 import Factory from './validations/factory';
 import Validator from './validations/validator';
-import { hasValidations as validationDecorator } from './decorators/has-validations';
+import {
+  hasValidations as validationDecorator
+} from './decorators/has-validations';
 
 /**
  * ## Installation

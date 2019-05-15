@@ -1,7 +1,16 @@
 import Mixin from '@ember/object/mixin';
 import { Promise } from 'rsvp';
-import EmberObject, { getWithDefault, computed, set, get } from '@ember/object';
-import { A as emberArray, makeArray, isArray } from '@ember/array';
+import EmberObject, {
+  getWithDefault,
+  computed,
+  set,
+  get
+} from '@ember/object';
+import {
+  A as emberArray,
+  makeArray,
+  isArray
+} from '@ember/array';
 import { readOnly } from '@ember/object/computed';
 import { assign } from '@ember/polyfills';
 import { run } from '@ember/runloop';
